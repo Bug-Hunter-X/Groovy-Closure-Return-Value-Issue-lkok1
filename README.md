@@ -1,0 +1,1 @@
+This repository demonstrates an unexpected behavior in Groovy when dealing with closures and their return values within methods. The `someMethod` takes a closure as input and executes it. The expected behavior is that the closure's return value is returned by `someMethod`. However, the actual behavior is that the closure's return value is ignored, causing unexpected results.
